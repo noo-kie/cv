@@ -1,0 +1,227 @@
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: rgb(228, 227, 226);
+}
+
+.contenu {
+    width: 100%;
+}
+
+
+/*MENU DU SITE*/
+
+.menu {
+    width: 100%;
+    background-color: rgb(14, 12, 12);
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+    color: white;
+    padding: 30px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.menu div {
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.menu div:hover {
+    background-color: rgb(219, 112, 147);
+}
+
+
+/*Corps*/
+
+img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(219, 112, 147);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.corps {
+    padding: 0 100px;
+}
+
+.titre {
+    text-align: center;
+    color: rgb(219, 112, 147);
+    margin: 40px 0;
+}
+
+
+/*PRESENTATION DU CV*/
+
+#presentation {
+    display: grid;
+    grid-template-columns: 1fr 1 fr;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 30px 0;
+    border-bottom: 20px solid rgb(219, 112, 147);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.image {
+    display: grid;
+    place-items: center;
+}
+
+.propos {
+    text-align: center;
+}
+
+.propos h2 {
+    font-size: 35px;
+    color: black;
+}
+
+.propos table td {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.propos tr td:nth-child(3) {
+    padding-left: 50px;
+}
+
+
+/*COMPETENCE*/
+
+#competences {
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 20px solid rgb(219, 112, 147);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-bordeer-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.competence table {
+    padding: 0 100px;
+}
+
+.competence table {
+    padding: 0 100px;
+}
+
+
+/*experiences pro*/
+
+#experiencesprofessionnelles {
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 20px solid rgb(219, 112, 147);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-bordeer-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+/*diplome*/
+
+#diplomes {
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 20px solid rgb(219, 112, 147);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-bordeer-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.diplome blockquote {
+    border-left: 5px solid white;
+    height: 50px;
+    display: grid;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+/*loisir*/
+
+#loisirs {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 20px solid rgb(219, 112, 147);
+    -webkit-border-radius: 15 px;
+    -moz-border-radius: 15 px;
+    -ms-border-radius: 15 px;
+    -o-border-radius: 15 px;
+}
+
+#loisirs img {
+    width: 5em;
+    height: 5em;
+}
+
+.loisirs p {
+    margin: 15 px;
+    font-size: 20 px;
+}
+
+
+/*contact*/
+
+#contact {
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 30 px 0;
+    border-bottom: 20px solid rgb(219, 112, 147);
+    -webkit-border-radius: 15 px;
+    -moz-border-radius: 15 px;
+    -ms-border-radius: 15 px;
+    -o-border-radius: 15 px;
+}
+
+.contact table {
+    padding: 0 100px;
+}
+
+.contact table td {
+    font-size: 20px;
+}
+
+.contact td {
+    padding: 15px 0;
+}
+
+.contact tr td:nth-child(3) {
+    padding-left: 50 px;
+}
